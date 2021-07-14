@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: netty
+
+server:
+  port: 9999
+  servlet:
+    context-path: /netty
+
+logging:
+  level:
+    com.king : debug
+  file:
+    path: ../logs/netty/
+  config: classpath:logback-spring.xml
